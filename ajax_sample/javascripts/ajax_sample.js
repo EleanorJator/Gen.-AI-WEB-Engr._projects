@@ -24,7 +24,7 @@ function getData() {
     request.open("GET", "javascripts/ajax.json"); 
     request.responseType = "json"; 
     request.send(null); 
-
   }
+
   
 document.getElementById("btn").onclick = getData;
